@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BookShop</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-    <bg-dark></bg-dark>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script scr="js/script.js"></script>
-    <nav class="navbar navbar-expand-lg">
+    <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Головна</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,10 +47,153 @@
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <button class="btn btn-outline-success" type="submit">Пошук</button>
             </form>
           </div>
         </div>
       </nav>
+      <main> 
+        <div class='container'> 
+            <div class='block'> 
+                <h1 class='main-text'>нові товари тут!</h1>  
+            </div> 
+        </div>  
+        <div class='container-cards'> 
+            <div class='card' data-id="Hatsune"> 
+                <img class='card-img' src='img/image copy 2.png' alt='Тут має бути картинка'> 
+                <p class='text-card'>Хатсуне міку</p> 
+                <p class='price-card'>371 грн</p> 
+ 
+                <div class="stars"> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-half"></i> 
+                </div> 
+            </div> 
+            <div class='card' data-id="Pins"> 
+                <img class='card-img' src='img/image copy 3.png' alt='Тут має бути картинка'> 
+                <p class='text-card'>Значки</p> 
+                <p class='price-card'>40 грн</p> 
+                <div class="stars"> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-half"></i> 
+                </div> 
+            </div> 
+            <div class='card' data-id="Cups"> 
+                <img class='card-img' src='img/image copy 4.png' alt='Тут має бути картинка'> 
+                <p class='text-card'>Кружки</p> 
+                <p class='price-card'>220 грн</p> 
+                <div class="stars"> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-half"></i> 
+                </div> 
+            </div> 
+            <div class='card' data-id="Sketchbook"> 
+                <img class='card-img' src='img/image copy 5.png' alt='Тут має бути картинка'> 
+                <p class='text-card'>Скетчбук "магічна битва"</p> 
+                <p class='price-card'>100 грн</p> 
+                <div class="stars"> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-half"></i> 
+                </div> 
+            </div> 
+            <div class='card' data-id="Wig"> 
+                <img class='card-img' src='img/image copy 6.png' alt='Тут має бути картинка'> 
+                <p class='text-card'>Парик лиси</p> 
+                <p class='price-card'>1090 грн</p> 
+                <div class="stars"> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-half"></i> 
+                </div> 
+            </div> 
+            <div class='card' data-id="Sweetshot"> 
+                <img class='card-img' src='img/image copy.png' alt='Тут має бути картинка'> 
+                <p class='text-card'>Cвітшот крд</p> 
+                <p class='price-card'>783 грн</p> 
+                <div class="stars"> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-half"></i> 
+                </div> 
+            </div> 
+            <div class='card' data-id="manga"> 
+                <img class='card-img' src='img/image.png' alt='Тут має бути картинка'> 
+                <p class='text-card'>манга "наречена чаклуна"</p> 
+                <p class='price-card'>900 грн</p> 
+                <div class="stars"> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-half"></i> 
+                </div> 
+            </div> 
+            <div class='card' data-id="Lamp"> 
+                <img class='card-img' src='img/svitylnyk-nichnyk-himiko-toga-z-pultom-upravlinnia-64559461109921.webp' 
+                    alt='Тут має бути картинка'> 
+                <p class='text-card'>Світильник-нічник (аніме)</p> 
+                <p class='price-card'>700 грн</p> 
+                <div class="stars"> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-half"></i> 
+                </div> 
+            </div> 
+            <div class='card' data-id="dakimakura"> 
+                <img class='card-img' src='img/D1465_result-scaled.webp' alt='Тут має бути картинка'> 
+                <p class='text-card'>дакімакура</p> 
+                <p class='price-card'>800 грн</p> 
+                <div class="stars"> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-half"></i> 
+                </div> 
+            </div> 
+            <div class='card' data-id="neko"> 
+                <img class='card-img' src='img/6801_0.jpg' alt='Тут має бути картинка'> 
+                <p class='text-card'>неко сет</p> 
+                <p class='price-card'>859 грн</p> 
+                <div class="stars"> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-fill"></i> 
+                    <i class="bi bi-star-half"></i> 
+                </div> 
+            </div> 
+        </div> 
+        <div class='last-block'> 
+            <h2 class='text-last-block'>Не нашли продукт? </h2> 
+            <img class='img-last-block' src='img/photo_2024-09-28_17-14-51.jpg' alt='Тут має бути картинка'> 
+            <form class='elem-last-block'> 
+                <div class='content-input'> 
+                    <input class='type-phone' type='tel' placeholder='Your phone number'> 
+                    <input class='subm' type='submit' value='Call me'> 
+                </div> 
+            </form> 
+ 
+        </div> 
+    </main> 
+  </header>
 </body>
 </html>
