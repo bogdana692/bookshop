@@ -29,7 +29,7 @@ main {
     align-items: center; 
     margin-bottom: 120px; 
     border-radius: 32px; 
-    background: #DCE5E2 top center / 100% repeat url(img/photo_2024-09-29_17-14-17.jpg); 
+    background: #DCE5E2 top center / 100% repeat url(../img/image15.png); 
 } 
  
 .block { 
@@ -86,6 +86,73 @@ main {
     /* 125% */ 
     margin-bottom: 57px; 
 } 
+
+.img-last-block{
+    width: 250px; 
+    height: 150px; 
+    margin-bottom: 30px;
+}
+
+.last-block { 
+    width: 100%;
+    align-items: start; 
+    padding: 43px 0px; 
+    background: #A6B1E1; 
+    border-radius: 16px; 
+} 
+
+.text-last-block { 
+    width: 393px; 
+    max-width: 393px; 
+    height: 105px; 
+    font-family: 'Readex Pro'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 42px; 
+    line-height: 52px; 
+    text-align: center; 
+    color: #000000; 
+} 
+.type-phone { 
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    padding: 16px 23px; 
+    gap: 10px; 
+    width: 270px; 
+    background: #DCE5E2; 
+    border: 1px solid #000000; 
+    border-radius: 54px 0px 0px 54px; 
+} 
+
+.subm { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 16px 33px; 
+ 
+    width: 130px; 
+    height: 50px; 
+ 
+    background: #dce6e2; 
+    border-radius: 0px 200px 200px 0px; 
+} 
+ 
+.content-input { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+ 
+.stars { 
+    text-align: center; 
+} 
+ 
+.button2 { 
+    justify-content: space-between; 
+}
  
 .text-card { 
     color: #000; 
@@ -94,7 +161,7 @@ main {
     font-style: normal; 
     font-weight: 400; 
     line-height: 27.5px; 
-    text-align: center; 
+    text-align: center;
 } 
  
 .cart{  
