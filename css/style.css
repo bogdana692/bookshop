@@ -1,6 +1,4 @@
-header{
-    position: relative;
-}
+
 .card-img { 
     width: 244px; 
     height: 214px; 
@@ -70,7 +68,7 @@ main {
 } 
  
 .cart{  
-    position: absolute; 
+    position: fixed; 
     right: 0px; 
     background-color: #F2EFE5; 
     color: #212121;  
