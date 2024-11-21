@@ -1,6 +1,6 @@
 async function getProducts() {
     // Виконуємо запит до файлу "store_db.json" та очікуємо на відповідь
-    let response = await fetch("store_db.json");
+    let response = await fetch("index.html");
     // Очікуємо на отримання та розпакування JSON-даних з відповіді
     let products = await response.json();
   
