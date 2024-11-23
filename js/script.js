@@ -1,3 +1,14 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const cards = document.querySelectorAll(".card");
+
+  cards.forEach(function (card) {
+    card.addEventListener("click", function () {
+      const cardId = card.getAttribute("data-id");
+      window.location.href = `details.html?id=${cardId}`;
+    });
+  });
+});
+
 async function getProducts() {
     // Виконуємо запит до файлу "store_db.json" та очікуємо на відповідь
     let response = await fetch("index.html");
@@ -121,15 +132,4 @@ async function getProducts() {
   // Створення об'єкта кошика
   let cart = new ShoppingCart();
 
-// динамічна сторінка
 
-  document.addEventListener("DOMContentLoaded", function () {
-  const cards = document.querySelectorAll(".card");
-
-  cards.forEach(function (card) {
-    card.addEventListener("click", function () {
-      const cardId = card.getAttribute("data-id");
-      window.location.href = `details.html?id=${cardId}`;
-    });
-  });
-});
