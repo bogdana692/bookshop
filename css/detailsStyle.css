@@ -1,68 +1,277 @@
-header {
+.cart-btnl{  
+    margin-left: 15px;
+    padding: 10px 20px;
     display: flex;
-    height: 80px;
-    padding: 0px 40px;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 150px;
-}
-
-.logo {
-    width: 47px;
-    height: 46px;
-}
-
-.menu {
-    display: flex;
-    height: 80px;
-    padding: 30px 0px;
     justify-content: center;
-    align-items: center;
-    gap: 40px;
-    flex-grow: 1;
+    gap: 10px;
+    background: linear-gradient( to left, rgb(93, 92, 98), rgb(56, 55, 59));
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 0.5cm;
+    position: relative;
+    border: none;
+    font-family: "Martian Mono", monospace;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+}  
+
+.cart-btnl:hover{
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
 }
 
-.menu-elements {
-    color: #000;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16.8px;
-    /* 120% */
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 14px 70px;
-    border-radius: 200px;
-    border: 1px solid #000;
-    background: #DCE5E2;
-}
+main { 
+    padding: 5%; 
+} 
 
-.menu-elements:hover {
-    background: #d0d8d5;
-}
-
-.details_container {
-    padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 65%;
-    margin: 0 auto;
+.card-img { 
+    width: 244px; 
+    height: 214px; 
+} 
+ 
+.card { 
     text-align: center;
+    margin-left: 350px; 
+    background-color: E1D7C6; 
+    padding: 10px; 
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+
+.container-cards { 
+    display: flex; 
+    gap: 20px;
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    margin: 55px; 
+} 
+
+.star{
+    font-size: 20px;
+}
+
+.card-title{ 
+    font-size: 35px;
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+.container-footer { 
+    display: flex; 
+    width: 100%; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center ; 
+    padding: 43px 0px; 
+    background: #E9EFEC; 
+    border-radius: 16px; 
+    bottom: 0;
+    left: 0;
+    flex-wrap: wrap;
+} 
+
+.title-text{
+    text-align: center;
+}
+
+#footer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.title-text h4{
+    color: rgb(160, 157, 157)
+}
+
+.title-text h2{
+    color: #909493;
+    font-size: 34px;
+}
+
+.footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    gap: 15px;
-
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.images {
-    width: 500px;
+.footer-left .footer-right{
+    flex-basis: 75%;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
-.text {
+.footer-left, .footer-right{
     font-size: 24px;
 }
 
-.price {
-    font-size: 26px;
-    font-weight: 600;
+.ForUs{
+    font-size: 24px;
+    margin-left: 15px;
+    padding: 10px 20px;
+    gap: 10px;
+    background: linear-gradient( to left, rgb(155, 153, 163), rgb(108, 107, 112));
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    border: none;
+    font-family: "Martian Mono", monospace;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+}
+
+.ForUs:hover{
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
+}
+
+.Help{
+    font-size: 24px;
+    margin-left: 15px;
+    padding: 10px 20px;
+    gap: 10px;
+    background: linear-gradient( to left, rgb(155, 153, 163), rgb(108, 107, 112));
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    border: none;
+    font-family: "Martian Mono", monospace;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+}
+
+.Help:hover{
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
+}
+
+.Contact{
+    font-size: 24px;
+    margin-left: 15px;
+    padding: 10px 20px;
+    gap: 10px;
+    background: linear-gradient( to left, rgb(155, 153, 163), rgb(108, 107, 112));
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    border: none;
+    font-family: "Martian Mono", monospace;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+}
+
+.Contact:hover{
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
+}
+
+.Product{
+    font-size: 24px;
+    margin-left: 15px;
+    padding: 10px 20px;
+    gap: 10px;
+    background: linear-gradient( to left, rgb(155, 153, 163), rgb(108, 107, 112));
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    border: none;
+    font-family: "Martian Mono", monospace;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 5px 5px 10px rgba(100, 97, 97, 0.116);
+}
+
+.Product:hover{
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
+}
+
+.telegram{
+    font-size: 24px; 
+    margin-left: 15px; 
+    padding: 10px 20px; 
+    gap: 10px; 
+    background: linear-gradient( to left,rgb(155, 153, 163), rgb(108, 107, 112)); 
+    border-radius: 30px; 
+    color: rgb(255, 255, 255); 
+    position: relative; 
+    border: none; 
+    font-family: "Martian Mono", monospace; 
+    cursor: pointer; 
+    transition-duration: .2s; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+}
+
+.telegram:hover{
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
+}
+
+.instagram{
+    font-size: 24px; 
+    margin-left: 15px; 
+    padding: 10px 20px; 
+    gap: 10px; 
+    background: linear-gradient( to left, rgb(155, 153, 163), rgb(108, 107, 112)); 
+    border-radius: 30px; 
+    color: rgb(255, 255, 255); 
+    position: relative; 
+    border: none; 
+    font-family: "Martian Mono", monospace; 
+    cursor: pointer; 
+    transition-duration: .2s; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+}
+
+.instagram:hover{
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
+}
+
+.number{
+    font-size: 24px; 
+    margin-left: 15px; 
+    padding: 10px 20px; 
+    gap: 10px; 
+    background: linear-gradient( to left, rgb(155, 153, 163), rgb(108, 107, 112)); 
+    border-radius: 30px; 
+    color: rgb(255, 255, 255); 
+    position: relative; 
+    border: none; 
+    font-family: "Martian Mono", monospace; 
+    cursor: pointer; 
+    transition-duration: .2s; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
+}
+
+.number:hover{
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
+}
+
+.social-link{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-link .fad{
+    font-size: 40px;
+    border: 4px solid rgb(124, 118, 118);
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 50%;
+    color:#abb1af;
+    transition: .8s;
+}
+
+.social-link .fad:hover{
+    transform: translate(-10px);
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
+    color: #cfdbd7;
 }
