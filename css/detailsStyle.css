@@ -25,11 +25,7 @@
 main { 
     padding: 5%; 
 } 
-
-.card-img { 
-    width: 244px; 
-    height: 214px; 
-} 
+    
  
 .card { 
     text-align: center;
@@ -39,6 +35,8 @@ main {
     border-radius: 10px; 
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
 }
+
+
 
 .container-cards { 
     display: flex; 
@@ -54,7 +52,7 @@ main {
 }
 
 .card-title{ 
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .card-text{
@@ -83,6 +81,10 @@ main {
     position: relative;
     width: 100%;
     height: 100%;
+}
+
+.card-body{
+    margin-left: 10px;
 }
 
 .title-text h4{
