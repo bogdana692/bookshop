@@ -1,11 +1,15 @@
-header{
-    background-color: #ECDFCC;
-}
-
 .card{
     margin-left: 40px;
+    display: flex;
+    gap: 10px; /* Відстань між зображеннями */
+    overflow-x: auto; /* Дозволяє прокручування по горизонталі */
+    cursor: pointer;
+    transition: transform 0.3s;
 }
- 
+
+.card img:hover {
+    transform: scale(1.1); /* Збільшує зображення при наведенні */
+  }
  
 .carousel-item{ 
     display: flex; 
@@ -16,8 +20,6 @@ header{
     flex-grow: 1; 
     align-self: stretch; 
 } 
-
-
  
 .button { 
     width: 234px; 
@@ -52,11 +54,11 @@ header{
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background: linear-gradient( to left, #A5B68D, #ccc1af);
+    background: linear-gradient( to left, rgb(93, 92, 98), rgb(56, 55, 59));
     border-radius: 30px;
-    color: #ffeace;
+    color: rgb(255, 255, 255);
     font-weight: 600;
-    font-size: 0.5cm; 
+    font-size: 0.5cm;
     position: relative;
     border: none;
     font-family: "Martian Mono", monospace;
@@ -66,7 +68,7 @@ header{
 }  
 
 .cart-btnl:hover{
-    background: linear-gradient(to left, #DA8359, #ebe5c8);
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
 }
 
 .container-cards { 
@@ -84,8 +86,7 @@ header{
     flex-direction: column; 
     justify-content: center; 
     align-items: center ; 
-    padding: 43px 0px; 
-    background: #ECDFCC; 
+    padding: 43px 0px;  
     border-radius: 16px; 
     bottom: 0;
     left: 0;
@@ -103,11 +104,11 @@ header{
 }
 
 .title-text h4{
-    color:#ffeace;
+    color: rgb(160, 157, 157)
 }
 
 .title-text h2{
-    color: #ffeace;
+    color: #909493;
     font-size: 34px;
 }
 
@@ -135,9 +136,9 @@ header{
     margin-left: 15px;
     padding: 10px 20px;
     gap: 10px;
-    background: linear-gradient( to left,  #A5B68D, #ccc1af);
+    background: linear-gradient( to left, rgb(155, 153, 163), rgb(108, 107, 112));
     border-radius: 30px;
-    color: #ffeace;
+    color: rgb(255, 255, 255);
     position: relative;
     border: none;
     font-family: "Martian Mono", monospace;
@@ -147,7 +148,7 @@ header{
 }
 
 .ForUs:hover{
-    background: linear-gradient(to left,   #DA8359, #ebe5c8);
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
 }
 
 .Help{
@@ -155,9 +156,9 @@ header{
     margin-left: 15px;
     padding: 10px 20px;
     gap: 10px;
-    background: linear-gradient( to left, #A5B68D, #ccc1af);
+    background: linear-gradient( to left, rgb(155, 153, 163), rgb(108, 107, 112));
     border-radius: 30px;
-    color: #ffeace;
+    color: rgb(255, 255, 255);
     position: relative;
     border: none;
     font-family: "Martian Mono", monospace;
@@ -167,7 +168,7 @@ header{
 }
 
 .Help:hover{
-    background: linear-gradient(to left,  #DA8359, #ebe5c8);
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
 }
 
 .Contact{
@@ -175,9 +176,9 @@ header{
     margin-left: 15px;
     padding: 10px 20px;
     gap: 10px;
-    background: linear-gradient( to left,  #A5B68D, #ccc1af);
+    background: linear-gradient( to left, rgb(155, 153, 163), rgb(108, 107, 112));
     border-radius: 30px;
-    color: #ffeace;
+    color: rgb(255, 255, 255);
     position: relative;
     border: none;
     font-family: "Martian Mono", monospace;
@@ -187,7 +188,7 @@ header{
 }
 
 .Contact:hover{
-    background: linear-gradient(to left,   #DA8359, #ebe5c8);
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
 }
 
 .Product{
@@ -195,9 +196,9 @@ header{
     margin-left: 15px;
     padding: 10px 20px;
     gap: 10px;
-    background: linear-gradient( to left, #A5B68D, #ccc1af);
+    background: linear-gradient( to left, rgb(155, 153, 163), rgb(108, 107, 112));
     border-radius: 30px;
-    color: #ffeace;
+    color: rgb(255, 255, 255);
     position: relative;
     border: none;
     font-family: "Martian Mono", monospace;
@@ -207,7 +208,7 @@ header{
 }
 
 .Product:hover{
-    background: linear-gradient(to left,  #DA8359, #ebe5c8);
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
 }
 
 .telegram{
@@ -215,9 +216,9 @@ header{
     margin-left: 15px; 
     padding: 10px 20px; 
     gap: 10px; 
-    background: linear-gradient( to left, #A5B68D, #ccc1af); 
+    background: linear-gradient( to left,rgb(155, 153, 163), rgb(108, 107, 112)); 
     border-radius: 30px; 
-    color: #ffeace; 
+    color: rgb(255, 255, 255); 
     position: relative; 
     border: none; 
     font-family: "Martian Mono", monospace; 
@@ -227,7 +228,7 @@ header{
 }
 
 .telegram:hover{
-    background: linear-gradient(to left,   #DA8359, #ebe5c8);
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
 }
 
 .instagram{
@@ -235,9 +236,9 @@ header{
     margin-left: 15px; 
     padding: 10px 20px; 
     gap: 10px; 
-    background: linear-gradient( to left,  #A5B68D, #ccc1af); 
+    background: linear-gradient( to left, rgb(155, 153, 163), rgb(108, 107, 112)); 
     border-radius: 30px; 
-    color: #ffeace; 
+    color: rgb(255, 255, 255); 
     position: relative; 
     border: none; 
     font-family: "Martian Mono", monospace; 
@@ -247,7 +248,7 @@ header{
 }
 
 .instagram:hover{
-    background: linear-gradient(to left,  #DA8359, #ebe5c8);
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
 }
 
 .number{
@@ -255,9 +256,9 @@ header{
     margin-left: 15px; 
     padding: 10px 20px; 
     gap: 10px; 
-    background: linear-gradient( to left, #A5B68D, #ccc1af); 
+    background: linear-gradient( to left, rgb(155, 153, 163), rgb(108, 107, 112)); 
     border-radius: 30px; 
-    color: #ffeace; 
+    color: rgb(255, 255, 255); 
     position: relative; 
     border: none; 
     font-family: "Martian Mono", monospace; 
@@ -267,7 +268,7 @@ header{
 }
 
 .number:hover{
-    background: linear-gradient(to left,   #DA8359, #ebe5c8);
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
 }
 
 .social-link{
@@ -279,16 +280,16 @@ header{
 
 .social-link .fad{
     font-size: 40px;
-    border: 4px solid  #DA8359;
+    border: 4px solid rgb(124, 118, 118);
     cursor: pointer;
     padding: 12px;
     border-radius: 50%;
-    color:#DA8359;
+    color:#abb1af;
     transition: .8s;
 }
 
 .social-link .fad:hover{
     transform: translate(-10px);
-    background: linear-gradient(to left,  #A5B68D, #ccc1af);
-    color:  #ffeace;
+    background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
+    color: #cfdbd7;
 }

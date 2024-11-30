@@ -1,5 +1,14 @@
 .card{
     margin-left: 40px;
+    display: flex;
+    gap: 10px; /* Відстань між зображеннями */
+    overflow-x: auto; /* Дозволяє прокручування по горизонталі */
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.card img:hover {
+    transform: scale(1.1); /* Збільшує зображення при наведенні */
 }
  
  
@@ -78,8 +87,7 @@
     flex-direction: column; 
     justify-content: center; 
     align-items: center ; 
-    padding: 43px 0px; 
-    background: #E9EFEC; 
+    padding: 43px 0px;  
     border-radius: 16px; 
     bottom: 0;
     left: 0;
@@ -286,3 +294,4 @@
     background: linear-gradient(to left, rgb(190, 186, 186), rgb(143, 140, 140));
     color: #cfdbd7;
 }
+
