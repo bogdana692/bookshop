@@ -259,9 +259,17 @@
     <main>
       <div class="card mb-3" style="max-width: 800px; ">
   <div class="row g-0">
-    <div class="col-md-4">
-      <img src="${card.images}" class="img-fluid rounded-start" alt="...">
-    </div> 
+  <div class="img-container">
+    <div class="small-img">
+        ${card.images
+        .slice(0, 3)
+        .map((img)
+      `<img src="${img}" class="img-fluid rounded-start" alt="${card.title}"/>`)
+        .join("")}
+    </div>
+    <div class="lange-img">
+    <img scr="${card.images}" class="img-fluid rounded-start" alt="${card.title}"/>
+    </div>
     <div class="col-md-8">
       <div class="card-body">
         <h2 class="card-title">${card.title}</h2>
